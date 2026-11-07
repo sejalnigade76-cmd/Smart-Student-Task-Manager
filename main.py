@@ -4,7 +4,7 @@ import json
 import os
 from datetime import datetime
 
-FILE_NAME = "tasks.json"
+FILE_NAME = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tasks.json")
 
 tasks = []
 
